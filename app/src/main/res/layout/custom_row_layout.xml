@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+    android:paddingLeft="6dp"
+    android:paddingRight="6dp"
+    android:background="#f7f3f3"
+    android:layout_marginBottom="10dp"
+    android:id="@+id/clickForDetailsId"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1.5"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Task Title here"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:id="@+id/taskNameCustomId"
+                android:layout_marginBottom="10dp"
+                android:textColor="#302f2f"/>
+            <TextView
+                android:id="@+id/taskCustomDateCreatedId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="25-07-2017"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#767272"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="#453e3e"
+            android:paddingTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="Task Last Upadetd"/>
+        <TextView
+            android:id="@+id/taskCustomDateUpdatedId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="25-072017"/>
+    </LinearLayout>
+</LinearLayout>
